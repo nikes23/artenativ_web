@@ -23454,7 +23454,7 @@ Xp(a){var s=0,r=A.W(t.y),q,p,o,n,m,l
 var $async$Xp=A.X(function(b,c){if(b===1)return A.T(c,r)
 while(true)switch(s){case 0:o=t.N
 n=A.aD(["Content-Type","application/json"],o,o)
-m=A.wJ("http","artenativ.herokuapp.com","/users/login",null)
+m=A.wJ("https","artenativ.herokuapp.com","/users/login",null)
 s=3
 return A.a1($.wY().la("POST",m,n,B.a9.oM(a.dN(),null),null),$async$Xp)
 case 3:l=c
@@ -23485,7 +23485,7 @@ H_(){var s=0,r=A.W(t.K),q,p,o,n,m,l,k,j
 var $async$H_=A.X(function(a,b){if(a===1)return A.T(b,r)
 while(true)switch(s){case 0:m=t.N
 l=A.aD(["Content-Type","application/json","Access-Control-Allow-Origin","*"],m,m)
-k=A.wJ("http","artenativ.herokuapp.com","/artikel/internartikelid",null)
+k=A.wJ("https","artenativ.herokuapp.com","/artikel/internartikelid",null)
 s=3
 return A.a1($.wY().Bq("GET",k,l),$async$H_)
 case 3:j=b
@@ -23506,7 +23506,7 @@ Xo(a){var s=0,r=A.W(t.K),q,p,o,n,m,l,k,j,i,h,g
 var $async$Xo=A.X(function(b,c){if(b===1)return A.T(c,r)
 while(true)switch(s){case 0:i=t.N
 h=A.aD(["Content-Type","application/json","Access-Control-Allow-Origin","*"],i,i)
-g=A.wJ("http","artenativ.herokuapp.com","/findartikel/"+B.e.i(a),null)
+g=A.wJ("https","artenativ.herokuapp.com","/findartikel/"+B.e.i(a),null)
 A.H("URL: "+g.i(0))
 s=3
 return A.a1($.wY().Bq("GET",g,h),$async$Xo)
@@ -23583,7 +23583,7 @@ Xq(a){var s=0,r=A.W(t._4),q,p,o,n,m,l,k,j
 var $async$Xq=A.X(function(b,c){if(b===1)return A.T(c,r)
 while(true)switch(s){case 0:m=t.N
 l=A.aD(["Content-Type","application/json"],m,m)
-k=A.wJ("http","artenativ.herokuapp.com","/users/register",null)
+k=A.wJ("https","artenativ.herokuapp.com","/users/register",null)
 s=3
 return A.a1($.wY().la("POST",k,l,B.a9.oM(a.dN(),null),null),$async$Xq)
 case 3:j=c
@@ -23605,7 +23605,7 @@ Xn(a){var s=0,r=A.W(t.Zr),q,p,o,n,m,l,k,j
 var $async$Xn=A.X(function(b,c){if(b===1)return A.T(c,r)
 while(true)switch(s){case 0:m=t.N
 l=A.aD(["Content-Type","application/json"],m,m)
-k=A.wJ("http","artenativ.herokuapp.com","/artikel/addartikel",null)
+k=A.wJ("https","artenativ.herokuapp.com","/artikel/addartikel",null)
 s=3
 return A.a1($.wY().la("POST",k,l,B.a9.oM(a.dN(),null),null),$async$Xn)
 case 3:j=c
@@ -23628,7 +23628,7 @@ var $async$H0=A.X(function(c,d){if(c===1)return A.T(d,r)
 while(true)switch(s){case 0:k=t.N
 j=A.aD(["Accept","application/json","Content-Type","application/json"],k,k)
 A.H("ArtNrInternAPI: "+b)
-p=A.wJ("http","artenativ.herokuapp.com","/findartikel/"+b,null)
+p=A.wJ("https","artenativ.herokuapp.com","/findartikel/"+b,null)
 A.H("URL: "+p.gqM())
 A.H("JSON Encode: "+B.a9.oM(a.dN(),null))
 s=3
