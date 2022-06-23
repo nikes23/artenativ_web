@@ -23917,7 +23917,7 @@ return}throw"Unable to print message: "+String(a)},
 XJ(a){var s=0,r=A.U(t.y),q,p,o,n,m,l
 var $async$XJ=A.V(function(b,c){if(b===1)return A.R(c,r)
 while(true)switch(s){case 0:o=t.N
-n=A.aF(["Content-Type","application/json"],o,o)
+n=A.aF(["Content-Type","application/json","Access-Control-Allow-Origin","*"],o,o)
 m=A.xl("http","api.artenativ.de","/users/login",null)
 s=3
 return A.a_($.xx().ld("POST",m,n,B.a9.oJ(a.dG(),null),null),$async$XJ)
@@ -24047,7 +24047,7 @@ return A.T($async$HD,r)},
 XK(a){var s=0,r=A.U(t._4),q,p,o,n,m,l,k,j
 var $async$XK=A.V(function(b,c){if(b===1)return A.R(c,r)
 while(true)switch(s){case 0:m=t.N
-l=A.aF(["Content-Type","application/json"],m,m)
+l=A.aF(["Content-Type","application/json","Access-Control-Allow-Origin","*"],m,m)
 k=A.xl("http","api.artenativ.de","/users/register",null)
 s=3
 return A.a_($.xx().ld("POST",k,l,B.a9.oJ(a.dG(),null),null),$async$XK)
@@ -24069,7 +24069,7 @@ return A.T($async$XK,r)},
 XI(a){var s=0,r=A.U(t.Zr),q,p,o,n,m,l,k,j
 var $async$XI=A.V(function(b,c){if(b===1)return A.R(c,r)
 while(true)switch(s){case 0:m=t.N
-l=A.aF(["Content-Type","application/json"],m,m)
+l=A.aF(["Content-Type","application/json","Access-Control-Allow-Origin","*"],m,m)
 k=A.xl("http","api.artenativ.de","/artikel/addartikel",null)
 s=3
 return A.a_($.xx().ld("POST",k,l,B.a9.oJ(a.dG(),null),null),$async$XI)
@@ -24091,7 +24091,7 @@ return A.T($async$XI,r)},
 HF(a,b){var s=0,r=A.U(t.um),q,p,o,n,m,l,k,j
 var $async$HF=A.V(function(c,d){if(c===1)return A.R(d,r)
 while(true)switch(s){case 0:k=t.N
-j=A.aF(["Accept","application/json","Content-Type","application/json"],k,k)
+j=A.aF(["Accept","application/json","Content-Type","application/json","Access-Control-Allow-Origin","*"],k,k)
 A.M("ArtNrInternAPI: "+b)
 p=A.xl("http","api.artenativ.de","/findartikel/"+b,null)
 A.M("URL: "+p.gqL())
