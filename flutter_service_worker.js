@@ -14,9 +14,9 @@ const RESOURCES = {
 "splash/img/light-1x.png": "3b3a696dcca7088ddcf9afc2b29651b7",
 "splash/splash.js": "c6a271349a0cd249bdb6d3c4d12f5dcf",
 "splash/style.css": "f770e1896f9b84444d32e7c202743c79",
-"index.html": "641246bcdcadfcb39550727a155d2810",
-"/": "641246bcdcadfcb39550727a155d2810",
-"main.dart.js": "03a478b1400b9b557801eb22446f260e",
+"index.html": "7bb10a8422bc6bca5352e784ebd778f6",
+"/": "7bb10a8422bc6bca5352e784ebd778f6",
+"main.dart.js": "cd7db8f0415eb5d3fa5ddee8f00d7756",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
@@ -25,28 +25,23 @@ const RESOURCES = {
 "manifest.json": "806106c016fb29ce9645d29a3efd1b23",
 "assets/jsonfile/productlist.json": "4e1776da22848d22c45617a713b979ca",
 "assets/AssetManifest.json": "43c9e2a2782d295e5947eead5137adb8",
-"assets/NOTICES": "0d22bc78cf56e363a917bc5b1388cd73",
+"assets/NOTICES": "9f6de46e22b5970b61aba61c0742880c",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/packages/esc_pos_utils_plus/resources/capabilities.json": "cfcc98d389d1ee4358f773efe8a9cdac",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/esc_pos_utils/resources/capabilities.json": "ae5c3288b81125ab9c54fff02d30387e",
-"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/assets/loading.json": "9441556c8765b7496d0b2748ee2f3df8",
 "assets/assets/splash.png": "f9c70dc9f28615f0c642d37ed1de8419",
 "assets/assets/Logo.png": "d9285b1a4d6ecf3626672fb72e3ae563",
 "assets/assets/Artenativ_Logo_Schwarz.png": "54fcf8efcd455b48b44b75d549055832",
-"assets/assets/barcode.png": "212e62e0326092539665d0a46c9387e9",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba"
+"assets/assets/barcode.png": "212e62e0326092539665d0a46c9387e9"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
 "assets/NOTICES",
 "assets/AssetManifest.json",
